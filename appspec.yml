@@ -5,5 +5,5 @@ files:
    destination: /tmp
 hooks:
   AfterInstall:
-   - location: scripts/start.scripts/start.sh
+   - location: scripts/start.sh
      runas: root
