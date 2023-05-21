@@ -3,7 +3,7 @@ os: linux
 files:
  - source: /
    destination: /tmp
-#hooks:
-  #BefoteInstall:
-   #- location: scripts/start.scripts/start.sh
-    # runas: root
+hooks:
+  BefoteInstall:
+   - location: scripts/start.scripts/start.sh
+     runas: root
