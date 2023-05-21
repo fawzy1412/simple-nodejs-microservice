@@ -4,6 +4,6 @@ files:
  - source: /
    destination: /tmp
 hooks:
-  BefoteInstall:
+  AfterInstall:
    - location: scripts/start.scripts/start.sh
      runas: root
