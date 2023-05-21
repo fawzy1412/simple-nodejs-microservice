@@ -7,3 +7,4 @@ hooks:
   AfterInstall:
    - location: scripts/start.sh
      runas: root
+     timeout: 120
